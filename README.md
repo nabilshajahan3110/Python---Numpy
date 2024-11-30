@@ -78,11 +78,11 @@ print(age_condition)
 
 df.to_csv('Employee.csv', index = False)
 print("df saved as 'Employee.csv'.")
+df_csv_read = pd.read_csv('Employee.csv')
+print(df_csv_read)
 
-![np7](https://github.com/user-attachments/assets/a0d78c74-bac4-43b5-bb75-54c776453602)
 
-
-![np8](https://github.com/user-attachments/assets/f81cd1ba-31c7-4e6c-bcdc-9d92272bb56d)
+![nplast](https://github.com/user-attachments/assets/8db1b3b7-2272-45aa-8084-30fbd35ead6c)
 
 
 
